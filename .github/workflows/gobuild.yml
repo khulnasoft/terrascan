@@ -30,7 +30,10 @@ jobs:
 
       - name: Pull Image
         run:  docker pull terrascan-test.artifactory.eng.tenable.com/tenb-cb:1.0.8.DEV230807225718-J-EPRT-TENB-CB-TENB-CB-CICD-5797-8
-  
+
+      - name: Run scan
+        run: docker run -e JKN_USERNAME=${{ JKN_USERNAME }} -e JKN_PASSWORD=${{ JKN_USERNAME }} -t terrascan-test.artifactory.eng.tenable.com/tenb-cb:1.0.8.DEV230807225718-J-EPRT-TENB-CB-TENB-CB-CICD-5797-8 jobs execute-job  --credential-mode env -n teams-deleng-terraform -p deleng-terraform/deleng-terraform/dockerhub-publish-tester -d '{"COMMITID":"test","APPID":"$test","BRANCH":"test"}' --cloudflare-access-secret ${{ CF_ACCESS_TOKEN }}:${{ CF_ACCESS_TOKEN }}
+        
       - name: Setup Go
         uses: actions/setup-go@v1
         with:
