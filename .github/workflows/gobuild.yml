@@ -26,7 +26,7 @@ jobs:
         run: nslookup https://terrascan-test.artifactory.eng.tenable.com
         
       - name: Login to Artifactory
-        run: docker login --username acornwell@tenable.com --password ${{ secrets.ARTIFACTORY_API_TOKEN }} https://terrascan-test.artifactory.eng.tenable.com
+        run: docker login --username ${{ secrets.JKN_USERNAME }}  --password JKN_PASSWORD=${{ secrets.JKN_USERNAME }}  https://terrascan-test.artifactory.eng.tenable.com
 
       - name: Pull Image
         run:  docker pull terrascan-test.artifactory.eng.tenable.com/tenb-cb:1.0.8.DEV230807225718-J-EPRT-TENB-CB-TENB-CB-CICD-5797-8
