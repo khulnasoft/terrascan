@@ -29,10 +29,10 @@ jobs:
         run: docker login --username cb-cicd-svc@tenable.com --password ${{ secrets.ARTIFACTORY_API_TOKEN }}  https://docker-terrascan-local.artifactory.eng.tenable.com
 
       - name: Pull Image
-        run:  docker pull terrascan-test.artifactory.eng.tenable.com/tenb-cb:1.0.8.DEV230807225718-J-EPRT-TENB-CB-TENB-CB-CICD-5797-8
+        run:  docker pull docker-terrascan-local.artifactory.eng.tenable.com/tenb-cb:1.0.8.DEV230807225718-J-EPRT-TENB-CB-TENB-CB-CICD-5797-8
 
       - name: Run scan
-        run: docker run -e JKN_USERNAME=${{ secrets.JKN_USERNAME }} -e JKN_PASSWORD=${{ secrets.JKN_USERNAME }} -t terrascan-test.artifactory.eng.tenable.com/tenb-cb:1.0.8.DEV230807225718-J-EPRT-TENB-CB-TENB-CB-CICD-5797-8 jobs execute-job  --credential-mode env -n teams-deleng-terraform -p deleng-terraform/deleng-terraform/dockerhub-publish-tester -d '{"COMMITID":"test","APPID":"$test","BRANCH":"test"}' --cloudflare-access-secret ${{ secrets.CF_ACCESS_TOKEN }}:${{ secrets.CF_SECRET }}
+        run: docker run -e JKN_USERNAME=${{ secrets.JKN_USERNAME }} -e JKN_PASSWORD=${{ secrets.JKN_PASSWORD }} -t docker-terrascan-local.artifactory.eng.tenable.com/tenb-cb:1.0.8.DEV230807225718-J-EPRT-TENB-CB-TENB-CB-CICD-5797-8 jobs execute-job  --credential-mode env -n teams-deleng-terraform -p deleng-terraform/deleng-terraform/dockerhub-publish-tester -d '{"COMMITID":"test","APPID":"$test","BRANCH":"test"}' --cloudflare-access-secret ${{ secrets.CF_ACCESS_TOKEN }}:${{ secrets.CF_SECRET }}
         
       - name: Setup Go
         uses: actions/setup-go@v1
