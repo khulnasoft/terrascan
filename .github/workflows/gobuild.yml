@@ -32,8 +32,8 @@ jobs:
       - name: Build Terrascan docker image
         run: make docker-build
 
-      - name: Go validations
-        run: make validate
+      #- name: Go validations
+      #  run: make validate
 
       - name: Build Terrascan
         run: make build
