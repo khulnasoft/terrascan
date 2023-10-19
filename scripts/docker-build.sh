@@ -4,7 +4,7 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-DOCKER_REPO="docker-terrascan-local.artifactory.eng.tenable.com"
+DOCKER_REPO="docker-terrascan-local.artifactory.eng.tenable.com/terrascan"
 DOCKERFILE="./build/Dockerfile"
 
 if [ $# -eq 0 ]; then
