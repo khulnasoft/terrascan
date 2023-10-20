@@ -74,7 +74,12 @@ jobs:
       - name: Pull Image
         run:  docker pull docker-terrascan-local.artifactory.eng.tenable.com/tenb-cb:1.0.10.DEV231011191849-J-EPRT-TENB-CB-TENB-CB-CICD-5797-10
 
-      - name: Build and push Terrascan latest docker image
+      - name: Build latest docker image
         run: make docker-build-push-latest
         env:
           MULTIPLATFORM: true
+      - name: Read File and Set as Variable
+        id: read-file
+        run: |
+          file_content=$(<dockerhub-image-label.txt)
+          echo "::set-output name=file_content::$file_content"
