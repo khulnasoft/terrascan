@@ -78,6 +78,7 @@ jobs:
         run: make docker-build-push-latest
         env:
           MULTIPLATFORM: true
+          
       - name: Read File and Set as Variable
         id: read-file
         run: |
