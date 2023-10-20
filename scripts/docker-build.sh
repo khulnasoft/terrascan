@@ -42,6 +42,6 @@ docker buildx create "${PLATFORM[@]}" --name terrascan-builder --use
 
 docker buildx build --provenance=false "${OUTPUT_TYPE}" "${PLATFORM[@]}" -t "${DOCKER_REPO}:${LABEL}" -f "${DOCKERFILE}" .
 
-echo "${LABEL}"
+echo "${LABEL}" > dockerhub-image-label.txt
 
 docker buildx rm terrascan-builder
