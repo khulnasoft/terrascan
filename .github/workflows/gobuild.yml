@@ -87,7 +87,7 @@ jobs:
           
       - name: Read File and Set as Environment Variable
         run: |
-          file_content=$(cat dockerhub-image-label.txt))
+          file_content=$(cat dockerhub-image-label.txt)
           echo "FILE_CONTENT1=$file_content" >> $GITHUB_ENV
 
       - name: Use Environment Variable
