@@ -34,6 +34,7 @@ jobs:
       - name: Read File and Set as Environment Variable
         run: |
           file_content=$(<test.txt)
+          echo $file_content
         env:
           MY_VARIABLE: $file_content
 
