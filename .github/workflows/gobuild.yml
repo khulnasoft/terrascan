@@ -26,6 +26,11 @@ jobs:
           chmod +x test.sh 
           ./test.sh  
 
+      - name: Test
+        run: |
+          ls
+          cat test.sh
+
       - name: Read File and Set as Environment Variable
         run: |
           file_content=$(cat test.txt)
