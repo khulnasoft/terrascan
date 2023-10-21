@@ -33,7 +33,7 @@ jobs:
 
       - name: Read File and Set as Environment Variable
         run: |
-          file_content=$(cat test.txt)
+          file_content=$(<test.txt)
         env:
           MY_VARIABLE: $file_content
 
