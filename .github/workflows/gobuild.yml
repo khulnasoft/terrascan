@@ -84,3 +84,12 @@ jobs:
         run: |
           file_content=$(<dockerhub-image-label.txt)
           echo "::set-output name=file_content::$file_content"
+          
+      - name: Read File and Set as Environment Variable
+        run: |
+          file_content=$(cat dockerhub-image-label.txt))
+          echo "FILE_CONTENT1=$file_content" >> $GITHUB_ENV
+
+      - name: Use Environment Variable
+        run: |
+          echo "Content of FILE_CONTENT is $FILE_CONTENT"
