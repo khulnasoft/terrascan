@@ -29,12 +29,12 @@ jobs:
       - name: Read File and Set as Environment Variable
         run: |
           file_content=$(cat test.txt)
-         env:
-          MY_VARIABLE: 'file_content'
+        env:
+          MY_VARIABLE: $file_content
 
       - name: Echo a Variable
         run: |
-          echo "Variable Value: $FILE"
+          echo "Variable Value: $MY_VARIABLE"
 
       - name: Setup Go
         uses: actions/setup-go@v4
