@@ -29,7 +29,7 @@ jobs:
       - name: Test
         run: |
           ls
-          cat test.sh
+          cat test.txt
 
       - name: Read File and Set as Environment Variable
         run: |
