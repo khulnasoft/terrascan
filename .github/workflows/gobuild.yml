@@ -35,8 +35,7 @@ jobs:
         run: |
           file_content=$(<test.txt)
           echo $file_content
-        env:
-          MY_VARIABLE: $file_content
+          echo "::set-env name=MY_VARIABLE::$file_content"
 
       - name: Echo a Variable
         run: |
