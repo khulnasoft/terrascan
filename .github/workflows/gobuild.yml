@@ -31,7 +31,7 @@ jobs:
           ls
           cat test.txt
 
-     - name: Run scan
+      - name: Run scan
         run: |
           image_tag=$(<test.txt)
           echo $image_tag
