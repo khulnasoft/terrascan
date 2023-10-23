@@ -78,13 +78,13 @@ jobs:
 
       - uses: docker/setup-qemu-action@v2
 
+      - name: Login to Artifactory
+        run: docker login --username svc_terrascan --password ${{ secrets.ARTIFACTORY_API_TOKEN }}  https://docker-terrascan-local.artifactory.eng.tenable.com
+
       - name: Build latest docker image
         run: make docker-build-push-latest
         env:
           MULTIPLATFORM: true
-
-      - name: Login to Artifactory
-        run: docker login --username svc_terrascan --password ${{ secrets.ARTIFACTORY_API_TOKEN }}  https://docker-terrascan-local.artifactory.eng.tenable.com
 
       - name: Pull Image
         run:  docker pull docker-terrascan-local.artifactory.eng.tenable.com/tenb-cb:1.0.10.DEV231011191849-J-EPRT-TENB-CB-TENB-CB-CICD-5797-10

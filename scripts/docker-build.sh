@@ -32,7 +32,10 @@ fi
 
 declare -a PLATFORM
 if [ "${MULTIPLATFORM-false}" = "true" ]; then
+  OUTPUT_TYPE="--push"
   PLATFORM=("--platform" "linux/amd64,linux/arm64")
+else
+  OUTPUT_TYPE="--load"
 fi
 
 docker buildx create "${PLATFORM[@]}" --name terrascan-builder --use
