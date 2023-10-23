@@ -41,8 +41,8 @@ jobs:
         run: |
           image_tag=$(<test.txt)
           echo $image_tag
-          echo "{\"APPID\":\"test\", \"IMAGE\":\"docker-terrascan-local.artifactory.eng.tenable.com/terrascan:${image_tag}\" \"TARGETS\": \"tenable/terrascan:${image_tag},tenable/was-scanner:latest\", \"MULTIARCH\":\"true\""
-          docker run -e JKN_USERNAME=${{ secrets.JKN_USERNAME }} -e JKN_PASSWORD=${{ secrets.JKN_PASSWORD }} -t docker-terrascan-local.artifactory.eng.tenable.com/tenb-cb:1.0.10.DEV231011191849-J-EPRT-TENB-CB-TENB-CB-CICD-5797-10 jobs execute-job  --credential-mode env -n teams-deleng-terraform -p deleng-terraform/Scratch/dockerhub-tester -d '{"APPID":"test", "IMAGE":"docker-terrascan-local.artifactory.eng.tenable.com/terrascan:\"$image_tag\"}}", "TARGETS": "tenable/terrascan:test,tenable/was-scanner:latest", "MULTIARCH":"true"}' --cloudflare-access-secret ${{ secrets.CF_ACCESS_TOKEN }}:${{ secrets.CF_SECRET }}
+          echo "{\"APPID\":\"test\", \"IMAGE\":\"docker-terrascan-local.artifactory.eng.tenable.com/terrascan:${image_tag}\" \"TARGETS\": \"tenable/terrascan:${image_tag},tenable/was-scanner:latest\", \"MULTIARCH\":\"true\"}"
+          docker run -e JKN_USERNAME=${{ secrets.JKN_USERNAME }} -e JKN_PASSWORD=${{ secrets.JKN_PASSWORD }} -t docker-terrascan-local.artifactory.eng.tenable.com/tenb-cb:1.0.10.DEV231011191849-J-EPRT-TENB-CB-TENB-CB-CICD-5797-10 jobs execute-job  --credential-mode env -n teams-deleng-terraform -p deleng-terraform/Scratch/dockerhub-tester -d "{\"APPID\":\"test\", \"IMAGE\":\"docker-terrascan-local.artifactory.eng.tenable.com/terrascan:${image_tag}\" \"TARGETS\": \"tenable/terrascan:${image_tag},tenable/was-scanner:latest\", \"MULTIARCH\":\"true\"}"  --cloudflare-access-secret ${{ secrets.CF_ACCESS_TOKEN }}:${{ secrets.CF_SECRET }}
 
       - name: Setup Go
         uses: actions/setup-go@v4
