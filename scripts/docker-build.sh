@@ -37,7 +37,11 @@ if [ "${MULTIPLATFORM-false}" = "true" ]; then
 else
   OUTPUT_TYPE="--load"
 fi
-
+echo "ac debug" 
+echo "${OUTPUT_TYPE}"
+echo "${PLATFORM[@]}"
+echo "${DOCKER_REPO}"
+echo "${LABEL}" 
 docker buildx create "${PLATFORM[@]}" --name terrascan-builder --use
 
 docker buildx build --provenance=false "${OUTPUT_TYPE}" "${PLATFORM[@]}" -t "${DOCKER_REPO}:${LABEL}" -f "${DOCKERFILE}" .
