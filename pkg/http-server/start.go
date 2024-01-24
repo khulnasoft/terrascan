@@ -24,11 +24,11 @@ import (
 	"time"
 
 	gorillaHandlers "github.com/gorilla/handlers"
-	httputils "github.com/tenable/terrascan/pkg/utils/http"
+	httputils "github.com/khulnasoft/terrascan/pkg/utils/http"
 	"go.uber.org/zap"
 
 	"github.com/gorilla/mux"
-	"github.com/tenable/terrascan/pkg/logging"
+	"github.com/khulnasoft/terrascan/pkg/logging"
 )
 
 // Start initializes api routes and starts http server

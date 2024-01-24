@@ -11,11 +11,11 @@ import (
 	"testing"
 
 	"github.com/gorilla/mux"
-	"github.com/tenable/terrascan/pkg/config"
-	"github.com/tenable/terrascan/pkg/downloader"
-	"github.com/tenable/terrascan/pkg/policy"
-	"github.com/tenable/terrascan/pkg/results"
-	"github.com/tenable/terrascan/pkg/runtime"
+	"github.com/khulnasoft/terrascan/pkg/config"
+	"github.com/khulnasoft/terrascan/pkg/downloader"
+	"github.com/khulnasoft/terrascan/pkg/policy"
+	"github.com/khulnasoft/terrascan/pkg/results"
+	"github.com/khulnasoft/terrascan/pkg/runtime"
 )
 
 var (

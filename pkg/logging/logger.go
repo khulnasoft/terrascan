@@ -23,7 +23,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/tenable/terrascan/pkg/utils"
+	"github.com/khulnasoft/terrascan/pkg/utils"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

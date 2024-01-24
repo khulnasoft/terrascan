@@ -17,7 +17,7 @@
 package runtime
 
 import (
-	"github.com/tenable/terrascan/pkg/utils"
+	"github.com/khulnasoft/terrascan/pkg/utils"
 )
 
 // SendNotifications sends notifications via all the configured notifiers

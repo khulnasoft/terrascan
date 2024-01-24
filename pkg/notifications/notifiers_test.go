@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tenable/terrascan/pkg/config"
-	"github.com/tenable/terrascan/pkg/notifications/webhook"
+	"github.com/khulnasoft/terrascan/pkg/config"
+	"github.com/khulnasoft/terrascan/pkg/notifications/webhook"
 )
 
 func TestNewNotifier(t *testing.T) {

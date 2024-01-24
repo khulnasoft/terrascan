@@ -23,8 +23,8 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/gexec"
-	scanUtils "github.com/tenable/terrascan/test/e2e/scan"
-	"github.com/tenable/terrascan/test/helper"
+	scanUtils "github.com/khulnasoft/terrascan/test/e2e/scan"
+	"github.com/khulnasoft/terrascan/test/helper"
 )
 
 var _ = Describe("Scan With Config Only Flag", func() {

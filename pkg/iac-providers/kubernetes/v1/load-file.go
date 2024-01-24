@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/tenable/terrascan/pkg/utils"
+	"github.com/khulnasoft/terrascan/pkg/utils"
 
-	"github.com/tenable/terrascan/pkg/iac-providers/output"
+	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
 	"go.uber.org/zap"
 )
 

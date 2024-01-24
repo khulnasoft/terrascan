@@ -27,8 +27,8 @@ import (
 
 	"github.com/onsi/gomega"
 	"github.com/onsi/gomega/gexec"
-	"github.com/tenable/terrascan/pkg/policy"
-	"github.com/tenable/terrascan/test/helper"
+	"github.com/khulnasoft/terrascan/pkg/policy"
+	"github.com/khulnasoft/terrascan/test/helper"
 )
 
 const (

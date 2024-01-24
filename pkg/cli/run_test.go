@@ -23,12 +23,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/tenable/terrascan/pkg/config"
-	"github.com/tenable/terrascan/pkg/iac-providers/output"
-	"github.com/tenable/terrascan/pkg/policy"
-	"github.com/tenable/terrascan/pkg/results"
-	"github.com/tenable/terrascan/pkg/runtime"
-	"github.com/tenable/terrascan/pkg/utils"
+	"github.com/khulnasoft/terrascan/pkg/config"
+	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
+	"github.com/khulnasoft/terrascan/pkg/policy"
+	"github.com/khulnasoft/terrascan/pkg/results"
+	"github.com/khulnasoft/terrascan/pkg/runtime"
+	"github.com/khulnasoft/terrascan/pkg/utils"
 )
 
 func TestMain(m *testing.M) {
@@ -141,7 +141,7 @@ func TestRun(t *testing.T) {
 			},
 		},
 		{
-			// test for https://github.com/tenable/terrascan/issues/718
+			// test for https://github.com/khulnasoft/terrascan/issues/718
 			// a valid tfplan file is supplied, error is not expected
 			name: "iac type is tfplan and -f option used to specify the tfplan.json",
 			scanOptions: &ScanOptions{
@@ -309,7 +309,7 @@ func TestScanOptionsDownloadRemoteRepository(t *testing.T) {
 			name: "valid input parameters",
 			fields: fields{
 				RemoteType: "git",
-				RemoteURL:  "github.com/tenable/terrascan",
+				RemoteURL:  "github.com/khulnasoft/terrascan",
 			},
 			tempDir: testTempdir,
 			want:    testTempdir,

@@ -31,10 +31,10 @@ import (
 	hclConfigs "github.com/hashicorp/terraform/configs"
 	"github.com/hashicorp/terraform/registry/regsrc"
 	"github.com/spf13/afero"
-	"github.com/tenable/terrascan/pkg/downloader"
-	"github.com/tenable/terrascan/pkg/iac-providers/output"
-	"github.com/tenable/terrascan/pkg/results"
-	"github.com/tenable/terrascan/pkg/utils"
+	"github.com/khulnasoft/terrascan/pkg/downloader"
+	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
+	"github.com/khulnasoft/terrascan/pkg/results"
+	"github.com/khulnasoft/terrascan/pkg/utils"
 	"go.uber.org/zap"
 )
 

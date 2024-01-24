@@ -3,10 +3,10 @@ package iacprovider
 import (
 	"reflect"
 
-	tfv15 "github.com/tenable/terrascan/pkg/iac-providers/terraform/v15"
+	tfv15 "github.com/khulnasoft/terrascan/pkg/iac-providers/terraform/v15"
 
-	tfv12 "github.com/tenable/terrascan/pkg/iac-providers/terraform/v12"
-	tfv14 "github.com/tenable/terrascan/pkg/iac-providers/terraform/v14"
+	tfv12 "github.com/khulnasoft/terrascan/pkg/iac-providers/terraform/v12"
+	tfv14 "github.com/khulnasoft/terrascan/pkg/iac-providers/terraform/v14"
 )
 
 // terraform specific constants

@@ -21,8 +21,8 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra"
-	iacProvider "github.com/tenable/terrascan/pkg/iac-providers"
-	"github.com/tenable/terrascan/pkg/policy"
+	iacProvider "github.com/khulnasoft/terrascan/pkg/iac-providers"
+	"github.com/khulnasoft/terrascan/pkg/policy"
 	"go.uber.org/zap"
 )
 

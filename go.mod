@@ -1,4 +1,4 @@
-module github.com/tenable/terrascan
+module github.com/khulnasoft/terrascan
 
 go 1.19
 

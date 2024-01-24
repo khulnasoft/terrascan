@@ -5,7 +5,7 @@
     {
       "tool": {
         "driver": {
-          "informationUri": "https://github.com/tenable/terrascan",
+          "informationUri": "https://github.com/khulnasoft/terrascan",
           "name": "terrascan",
           "rules": [
             {

@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tenable/terrascan/pkg/iac-providers/output"
+	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
 )
 
 func TestLoadIacFile(t *testing.T) {

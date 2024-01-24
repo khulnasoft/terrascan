@@ -22,8 +22,8 @@ import (
 
 	yamltojson "github.com/ghodss/yaml"
 	"github.com/iancoleman/strcase"
-	"github.com/tenable/terrascan/pkg/iac-providers/output"
-	"github.com/tenable/terrascan/pkg/utils"
+	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
+	"github.com/khulnasoft/terrascan/pkg/utils"
 	"go.uber.org/zap"
 	"gopkg.in/yaml.v3"
 )

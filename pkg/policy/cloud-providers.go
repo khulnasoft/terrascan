@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/tenable/terrascan/pkg/config"
+	"github.com/khulnasoft/terrascan/pkg/config"
 )
 
 // cloudProviderType data type for supported cloud types in terrascan

@@ -13,8 +13,8 @@ import (
 	"testing"
 
 	"github.com/gorilla/mux"
-	"github.com/tenable/terrascan/pkg/config"
-	"github.com/tenable/terrascan/pkg/k8s/dblogs"
+	"github.com/khulnasoft/terrascan/pkg/config"
+	"github.com/khulnasoft/terrascan/pkg/k8s/dblogs"
 	v1 "k8s.io/api/admission/v1"
 )
 

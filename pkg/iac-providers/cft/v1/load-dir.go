@@ -23,9 +23,9 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/tenable/terrascan/pkg/iac-providers/output"
-	"github.com/tenable/terrascan/pkg/results"
-	"github.com/tenable/terrascan/pkg/utils"
+	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
+	"github.com/khulnasoft/terrascan/pkg/results"
+	"github.com/khulnasoft/terrascan/pkg/utils"
 )
 
 // LoadIacDir loads all CFT template files in the current directory.

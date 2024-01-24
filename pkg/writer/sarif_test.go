@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tenable/terrascan/pkg/policy"
-	"github.com/tenable/terrascan/pkg/results"
-	"github.com/tenable/terrascan/pkg/utils"
-	"github.com/tenable/terrascan/pkg/version"
+	"github.com/khulnasoft/terrascan/pkg/policy"
+	"github.com/khulnasoft/terrascan/pkg/results"
+	"github.com/khulnasoft/terrascan/pkg/utils"
+	"github.com/khulnasoft/terrascan/pkg/version"
 )
 
 var abstestpath, _ = getAbsoluteFilePath(violationsInput.Summary.ResourcePath, violationsInput.Violations[0].File)
@@ -24,7 +24,7 @@ const violationTemplate = `{
             {
               "tool": {
                 "driver": {
-                  "informationUri": "https://github.com/tenable/terrascan",
+                  "informationUri": "https://github.com/khulnasoft/terrascan",
                   "name": "terrascan",
                   "rules": [
                     {
@@ -83,7 +83,7 @@ var expectedSarifOutput2 = fmt.Sprintf(`{
             {
               "tool": {
                 "driver": {
-                  "informationUri": "https://github.com/tenable/terrascan",
+                  "informationUri": "https://github.com/khulnasoft/terrascan",
                   "name": "terrascan",
                   "rules": [],
                   "version": "%s"
@@ -101,7 +101,7 @@ var expectedSarifOutput3 = fmt.Sprintf(`{
             {
               "tool": {
                 "driver": {
-                  "informationUri": "https://github.com/tenable/terrascan",
+                  "informationUri": "https://github.com/khulnasoft/terrascan",
                   "name": "terrascan",
                   "rules": [
                     {
@@ -131,7 +131,7 @@ var expectedSarifOutput4 = fmt.Sprintf(`{
             {
               "tool": {
                 "driver": {
-                  "informationUri": "https://github.com/tenable/terrascan",
+                  "informationUri": "https://github.com/khulnasoft/terrascan",
                   "name": "terrascan",
                   "rules": [
                     {

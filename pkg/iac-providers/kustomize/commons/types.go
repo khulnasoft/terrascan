@@ -18,7 +18,7 @@ package commons
 
 import (
 	"github.com/hashicorp/go-multierror"
-	"github.com/tenable/terrascan/pkg/utils"
+	"github.com/khulnasoft/terrascan/pkg/utils"
 )
 
 const (

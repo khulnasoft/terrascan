@@ -25,8 +25,8 @@ import (
 	"strings"
 
 	"github.com/pelletier/go-toml"
-	"github.com/tenable/terrascan/pkg/config"
-	"github.com/tenable/terrascan/pkg/utils"
+	"github.com/khulnasoft/terrascan/pkg/config"
+	"github.com/khulnasoft/terrascan/pkg/utils"
 )
 
 // CreateTerrascanConfigFile creates a config file with test policy path

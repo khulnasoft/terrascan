@@ -26,7 +26,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/tenable/terrascan/pkg/config"
+	"github.com/khulnasoft/terrascan/pkg/config"
 	"go.uber.org/zap"
 	"gopkg.in/src-d/go-git.v4"
 	gitConfig "gopkg.in/src-d/go-git.v4/config"
@@ -37,7 +37,7 @@ var (
 	errNoConnection = fmt.Errorf("could not connect to github.com")
 )
 
-const terrascanReadmeURL string = "https://raw.githubusercontent.com/tenable/terrascan/master/README.md"
+const terrascanReadmeURL string = "https://raw.githubusercontent.com/khulnasoft/terrascan/master/README.md"
 const filePermissionBits fs.FileMode = 0755
 
 // Run initializes terrascan if not done already

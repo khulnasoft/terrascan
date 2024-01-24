@@ -19,9 +19,9 @@ package config
 import (
 	"time"
 
-	"github.com/tenable/terrascan/pkg/mapper/convert"
-	fn "github.com/tenable/terrascan/pkg/mapper/iac-providers/arm/functions"
-	"github.com/tenable/terrascan/pkg/mapper/iac-providers/arm/types"
+	"github.com/khulnasoft/terrascan/pkg/mapper/convert"
+	fn "github.com/khulnasoft/terrascan/pkg/mapper/iac-providers/arm/functions"
+	"github.com/khulnasoft/terrascan/pkg/mapper/iac-providers/arm/types"
 )
 
 const armAttributes = "attributes"

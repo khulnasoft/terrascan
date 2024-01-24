@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/tenable/terrascan/pkg/policy"
+	"github.com/khulnasoft/terrascan/pkg/policy"
 )
 
 // EngineStats Contains misc stats

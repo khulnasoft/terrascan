@@ -21,7 +21,7 @@ import (
 
 	"github.com/onsi/gomega"
 	"github.com/onsi/gomega/gexec"
-	"github.com/tenable/terrascan/test/helper"
+	"github.com/khulnasoft/terrascan/test/helper"
 )
 
 // ValidateExitCodeAndOutput validates the exit code and output of the command

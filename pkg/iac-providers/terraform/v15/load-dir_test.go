@@ -25,9 +25,9 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/tenable/terrascan/pkg/iac-providers/output"
-	commons_test "github.com/tenable/terrascan/pkg/iac-providers/terraform/commons/test"
-	"github.com/tenable/terrascan/pkg/utils"
+	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
+	commons_test "github.com/khulnasoft/terrascan/pkg/iac-providers/terraform/commons/test"
+	"github.com/khulnasoft/terrascan/pkg/utils"
 )
 
 var testInvalidAttribdir = "terraform-with-attrib-errors/module/firewall-test"

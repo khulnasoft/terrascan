@@ -17,7 +17,7 @@
 package filters
 
 import (
-	"github.com/tenable/terrascan/pkg/policy"
+	"github.com/khulnasoft/terrascan/pkg/policy"
 )
 
 // RegoMetadataPreLoadFilter is a pre load filter

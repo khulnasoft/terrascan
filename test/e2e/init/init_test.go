@@ -27,16 +27,16 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/gexec"
-	"github.com/tenable/terrascan/pkg/utils"
-	initUtil "github.com/tenable/terrascan/test/e2e/init"
-	"github.com/tenable/terrascan/test/helper"
+	"github.com/khulnasoft/terrascan/pkg/utils"
+	initUtil "github.com/khulnasoft/terrascan/test/e2e/init"
+	"github.com/khulnasoft/terrascan/test/helper"
 	"gopkg.in/src-d/go-git.v4"
 )
 
 var (
 	initCommand            = "init"
 	defaultPolicyRepoPath  = filepath.Join(utils.GetHomeDir(), ".terrascan")
-	terrascanGitURL        = "https://github.com/tenable/terrascan.git"
+	terrascanGitURL        = "https://github.com/khulnasoft/terrascan.git"
 	terrascanDefaultBranch = "master"
 	terrascanConfigEnvName = "TERRASCAN_CONFIG"
 	kaiMoneyGitURL         = "https://github.com/tenable/KaiMonkey.git"

@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/tenable/terrascan/pkg/iac-providers/output"
-	"github.com/tenable/terrascan/pkg/iac-providers/terraform/commons/test"
-	"github.com/tenable/terrascan/pkg/utils"
+	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
+	"github.com/khulnasoft/terrascan/pkg/iac-providers/terraform/commons/test"
+	"github.com/khulnasoft/terrascan/pkg/utils"
 )
 
 func TestLoadIacFile(t *testing.T) {

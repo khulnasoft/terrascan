@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/tenable/terrascan/pkg/iac-providers/output"
-	"github.com/tenable/terrascan/pkg/policy"
+	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
+	"github.com/khulnasoft/terrascan/pkg/policy"
 )
 
 // Output is the runtime engine output

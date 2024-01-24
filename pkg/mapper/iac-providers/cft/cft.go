@@ -78,11 +78,11 @@ import (
 	"github.com/awslabs/goformation/v7/cloudformation/route53"
 	"github.com/awslabs/goformation/v7/cloudformation/s3"
 	"github.com/awslabs/goformation/v7/cloudformation/ssm"
-	"github.com/tenable/terrascan/pkg/iac-providers/output"
-	"github.com/tenable/terrascan/pkg/mapper/core"
-	"github.com/tenable/terrascan/pkg/mapper/iac-providers/cft/config"
-	"github.com/tenable/terrascan/pkg/mapper/iac-providers/cft/store"
-	"github.com/tenable/terrascan/pkg/utils"
+	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
+	"github.com/khulnasoft/terrascan/pkg/mapper/core"
+	"github.com/khulnasoft/terrascan/pkg/mapper/iac-providers/cft/config"
+	"github.com/khulnasoft/terrascan/pkg/mapper/iac-providers/cft/store"
+	"github.com/khulnasoft/terrascan/pkg/utils"
 )
 
 const errUnsupportedDoc = "unsupported document type"

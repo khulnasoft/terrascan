@@ -25,11 +25,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tenable/terrascan/pkg/config"
-	"github.com/tenable/terrascan/pkg/k8s/dblogs"
-	"github.com/tenable/terrascan/pkg/results"
-	"github.com/tenable/terrascan/pkg/runtime"
-	"github.com/tenable/terrascan/pkg/utils"
+	"github.com/khulnasoft/terrascan/pkg/config"
+	"github.com/khulnasoft/terrascan/pkg/k8s/dblogs"
+	"github.com/khulnasoft/terrascan/pkg/results"
+	"github.com/khulnasoft/terrascan/pkg/runtime"
+	"github.com/khulnasoft/terrascan/pkg/utils"
 	"go.uber.org/zap"
 
 	admissionv1 "k8s.io/api/admission/v1"

@@ -21,7 +21,7 @@ import (
 	"unicode"
 
 	"github.com/awslabs/goformation/v7/cloudformation/autoscaling"
-	"github.com/tenable/terrascan/pkg/mapper/iac-providers/cft/functions"
+	"github.com/khulnasoft/terrascan/pkg/mapper/iac-providers/cft/functions"
 )
 
 // EbsBlockDeviceBlock holds config for EbsBlockDevice

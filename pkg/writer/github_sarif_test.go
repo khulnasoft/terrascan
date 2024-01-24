@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tenable/terrascan/pkg/utils"
-	"github.com/tenable/terrascan/pkg/version"
+	"github.com/khulnasoft/terrascan/pkg/utils"
+	"github.com/khulnasoft/terrascan/pkg/version"
 )
 
 const violationTemplateForGH = `{
@@ -18,7 +18,7 @@ const violationTemplateForGH = `{
             {
               "tool": {
                 "driver": {
-                  "informationUri": "https://github.com/tenable/terrascan",
+                  "informationUri": "https://github.com/khulnasoft/terrascan",
                   "name": "terrascan",
                   "rules": [
                     {

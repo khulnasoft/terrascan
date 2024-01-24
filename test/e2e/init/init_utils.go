@@ -21,7 +21,7 @@ import (
 
 	"github.com/onsi/gomega"
 	"github.com/onsi/gomega/gexec"
-	"github.com/tenable/terrascan/test/helper"
+	"github.com/khulnasoft/terrascan/test/helper"
 	"gopkg.in/src-d/go-git.v4"
 )
 

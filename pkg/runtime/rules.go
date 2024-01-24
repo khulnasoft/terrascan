@@ -1,7 +1,7 @@
 package runtime
 
 import (
-	"github.com/tenable/terrascan/pkg/config"
+	"github.com/khulnasoft/terrascan/pkg/config"
 )
 
 // read the config file and update scan and skip rules

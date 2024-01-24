@@ -21,9 +21,9 @@ import (
 	"os"
 	"strings"
 
-	IacProvider "github.com/tenable/terrascan/pkg/iac-providers"
-	"github.com/tenable/terrascan/pkg/policy"
-	"github.com/tenable/terrascan/pkg/utils"
+	IacProvider "github.com/khulnasoft/terrascan/pkg/iac-providers"
+	"github.com/khulnasoft/terrascan/pkg/policy"
+	"github.com/khulnasoft/terrascan/pkg/utils"
 	"go.uber.org/zap"
 )
 

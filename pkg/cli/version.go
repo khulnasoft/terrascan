@@ -20,7 +20,7 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
-	"github.com/tenable/terrascan/pkg/version"
+	"github.com/khulnasoft/terrascan/pkg/version"
 )
 
 var versionCmd = &cobra.Command{

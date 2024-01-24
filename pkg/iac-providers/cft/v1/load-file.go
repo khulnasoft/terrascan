@@ -27,11 +27,11 @@ import (
 	"github.com/awslabs/goformation/v7"
 	"github.com/awslabs/goformation/v7/cloudformation"
 	multierr "github.com/hashicorp/go-multierror"
-	"github.com/tenable/terrascan/pkg/iac-providers/output"
-	"github.com/tenable/terrascan/pkg/mapper"
-	cftRes "github.com/tenable/terrascan/pkg/mapper/iac-providers/cft/config"
-	"github.com/tenable/terrascan/pkg/mapper/iac-providers/cft/store"
-	"github.com/tenable/terrascan/pkg/results"
+	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
+	"github.com/khulnasoft/terrascan/pkg/mapper"
+	cftRes "github.com/khulnasoft/terrascan/pkg/mapper/iac-providers/cft/config"
+	"github.com/khulnasoft/terrascan/pkg/mapper/iac-providers/cft/store"
+	"github.com/khulnasoft/terrascan/pkg/results"
 	"go.uber.org/zap"
 )
 

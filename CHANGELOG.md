@@ -1,181 +1,181 @@
 # Changelog
 
-## [v1.18.3](https://github.com/tenable/terrascan/tree/v1.18.3) (2023-08-03)
+## [v1.18.3](https://github.com/khulnasoft/terrascan/tree/v1.18.3) (2023-08-03)
 
-[Full Changelog](https://github.com/tenable/terrascan/compare/v1.18.2...v1.18.3)
-
-**Merged pull requests:**
-
-- update net deps to fix vuln [\#1597](https://github.com/tenable/terrascan/pull/1597) ([Rchanger](https://github.com/Rchanger))
-
-# Changelog
-
-## [v1.18.2](https://github.com/tenable/terrascan/tree/v1.18.2) (2023-07-26)
-
-[Full Changelog](https://github.com/tenable/terrascan/compare/v1.18.1...v1.18.2)
+[Full Changelog](https://github.com/khulnasoft/terrascan/compare/v1.18.2...v1.18.3)
 
 **Merged pull requests:**
 
-- fix openssl-libcrypto1.1@1.1.1u-r1 library vulnerability [\#1592](https://github.com/tenable/terrascan/pull/1592) ([nitumore](https://github.com/nitumore))
-- Increased timeout for webhook test [\#1591](https://github.com/tenable/terrascan/pull/1591) ([nitumore](https://github.com/nitumore))
-- only high vulns detected by docker scan fixed [\#1588](https://github.com/tenable/terrascan/pull/1588) ([nitumore](https://github.com/nitumore))
-- remove k8s admission log UI [\#1556](https://github.com/tenable/terrascan/pull/1556) ([nasir-rabbani](https://github.com/nasir-rabbani))
-- Spelling [\#1496](https://github.com/tenable/terrascan/pull/1496) ([jsoref](https://github.com/jsoref))
+- update net deps to fix vuln [\#1597](https://github.com/khulnasoft/terrascan/pull/1597) ([Rchanger](https://github.com/Rchanger))
 
 # Changelog
 
-## [v1.18.1](https://github.com/tenable/terrascan/tree/v1.18.1) (2023-04-13)
+## [v1.18.2](https://github.com/khulnasoft/terrascan/tree/v1.18.2) (2023-07-26)
 
-[Full Changelog](https://github.com/tenable/terrascan/compare/v1.18.0...v1.18.1)
+[Full Changelog](https://github.com/khulnasoft/terrascan/compare/v1.18.1...v1.18.2)
 
 **Merged pull requests:**
 
-- bugfix: provider version coming as 0.0.0 or empty [\#1553](https://github.com/tenable/terrascan/pull/1553) ([nasir-rabbani](https://github.com/nasir-rabbani))
-- Bump github.com/docker/docker from 20.10.21+incompatible to 20.10.24+incompatible [\#1552](https://github.com/tenable/terrascan/pull/1552) ([dependabot[bot]](https://github.com/apps/dependabot))
-- deprecate k8s admission log UI (Snyk test) [\#1550](https://github.com/tenable/terrascan/pull/1550) ([mandibles232](https://github.com/mandibles232))
-- added sonar-properties file to skip tests from sonar analysis [\#1544](https://github.com/tenable/terrascan/pull/1544) ([nasir-rabbani](https://github.com/nasir-rabbani))
+- fix openssl-libcrypto1.1@1.1.1u-r1 library vulnerability [\#1592](https://github.com/khulnasoft/terrascan/pull/1592) ([nitumore](https://github.com/nitumore))
+- Increased timeout for webhook test [\#1591](https://github.com/khulnasoft/terrascan/pull/1591) ([nitumore](https://github.com/nitumore))
+- only high vulns detected by docker scan fixed [\#1588](https://github.com/khulnasoft/terrascan/pull/1588) ([nitumore](https://github.com/nitumore))
+- remove k8s admission log UI [\#1556](https://github.com/khulnasoft/terrascan/pull/1556) ([nasir-rabbani](https://github.com/nasir-rabbani))
+- Spelling [\#1496](https://github.com/khulnasoft/terrascan/pull/1496) ([jsoref](https://github.com/jsoref))
 
 # Changelog
 
-## [v1.18.0](https://github.com/tenable/terrascan/tree/v1.18.0) (2023-02-06)
+## [v1.18.1](https://github.com/khulnasoft/terrascan/tree/v1.18.1) (2023-04-13)
 
-[Full Changelog](https://github.com/tenable/terrascan/compare/v1.17.1...v1.18.0)
+[Full Changelog](https://github.com/khulnasoft/terrascan/compare/v1.18.0...v1.18.1)
+
+**Merged pull requests:**
+
+- bugfix: provider version coming as 0.0.0 or empty [\#1553](https://github.com/khulnasoft/terrascan/pull/1553) ([nasir-rabbani](https://github.com/nasir-rabbani))
+- Bump github.com/docker/docker from 20.10.21+incompatible to 20.10.24+incompatible [\#1552](https://github.com/khulnasoft/terrascan/pull/1552) ([dependabot[bot]](https://github.com/apps/dependabot))
+- deprecate k8s admission log UI (Snyk test) [\#1550](https://github.com/khulnasoft/terrascan/pull/1550) ([mandibles232](https://github.com/mandibles232))
+- added sonar-properties file to skip tests from sonar analysis [\#1544](https://github.com/khulnasoft/terrascan/pull/1544) ([nasir-rabbani](https://github.com/nasir-rabbani))
+
+# Changelog
+
+## [v1.18.0](https://github.com/khulnasoft/terrascan/tree/v1.18.0) (2023-02-06)
+
+[Full Changelog](https://github.com/khulnasoft/terrascan/compare/v1.17.1...v1.18.0)
 
 **Closed issues:**
 
-- AC\_DOCKER\_0041 Issues [\#1522](https://github.com/tenable/terrascan/issues/1522)
-- accurics.gcp.IAM.145 triggers for GitHub repos [\#1295](https://github.com/tenable/terrascan/issues/1295)
-- imageVersionnotusinglatest and AC\_DOCKER\_0041 Issue [\#1099](https://github.com/tenable/terrascan/issues/1099)
-- Inconsistent notation for severity in output \(sometimes uppercase, sometimes not\) [\#955](https://github.com/tenable/terrascan/issues/955)
+- AC\_DOCKER\_0041 Issues [\#1522](https://github.com/khulnasoft/terrascan/issues/1522)
+- accurics.gcp.IAM.145 triggers for GitHub repos [\#1295](https://github.com/khulnasoft/terrascan/issues/1295)
+- imageVersionnotusinglatest and AC\_DOCKER\_0041 Issue [\#1099](https://github.com/khulnasoft/terrascan/issues/1099)
+- Inconsistent notation for severity in output \(sometimes uppercase, sometimes not\) [\#955](https://github.com/khulnasoft/terrascan/issues/955)
 
 **Merged pull requests:**
 
-- Bump github.com/aws/aws-sdk-go from 1.43.16 to 1.44.193 [\#1534](https://github.com/tenable/terrascan/pull/1534) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump google.golang.org/api from 0.103.0 to 0.109.0 [\#1530](https://github.com/tenable/terrascan/pull/1530) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Fix description and version rule [\#1523](https://github.com/tenable/terrascan/pull/1523) ([kylewintaur](https://github.com/kylewintaur))
-- APE-11967 : error due to new attribute in terraform cause all other working module and resources to be ignored [\#1517](https://github.com/tenable/terrascan/pull/1517) ([nitumore](https://github.com/nitumore))
-- Consolidate spelling of severity levels to all uppercase LOW/MEDIUM/HIGH [\#1516](https://github.com/tenable/terrascan/pull/1516) ([hoexter](https://github.com/hoexter))
-- Remove wrongly placed github\_repository policy from gcp folder [\#1515](https://github.com/tenable/terrascan/pull/1515) ([hoexter](https://github.com/hoexter))
-- APE-8064 - Support one or more values.yaml file as an input to helm scan [\#1501](https://github.com/tenable/terrascan/pull/1501) ([nitumore](https://github.com/nitumore))
+- Bump github.com/aws/aws-sdk-go from 1.43.16 to 1.44.193 [\#1534](https://github.com/khulnasoft/terrascan/pull/1534) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump google.golang.org/api from 0.103.0 to 0.109.0 [\#1530](https://github.com/khulnasoft/terrascan/pull/1530) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Fix description and version rule [\#1523](https://github.com/khulnasoft/terrascan/pull/1523) ([kylewintaur](https://github.com/kylewintaur))
+- APE-11967 : error due to new attribute in terraform cause all other working module and resources to be ignored [\#1517](https://github.com/khulnasoft/terrascan/pull/1517) ([nitumore](https://github.com/nitumore))
+- Consolidate spelling of severity levels to all uppercase LOW/MEDIUM/HIGH [\#1516](https://github.com/khulnasoft/terrascan/pull/1516) ([hoexter](https://github.com/hoexter))
+- Remove wrongly placed github\_repository policy from gcp folder [\#1515](https://github.com/khulnasoft/terrascan/pull/1515) ([hoexter](https://github.com/hoexter))
+- APE-8064 - Support one or more values.yaml file as an input to helm scan [\#1501](https://github.com/khulnasoft/terrascan/pull/1501) ([nitumore](https://github.com/nitumore))
 
 # Changelog
 
-## [v1.17.1](https://github.com/tenable/terrascan/tree/v1.17.1) (2022-12-16)
+## [v1.17.1](https://github.com/khulnasoft/terrascan/tree/v1.17.1) (2022-12-16)
 
-[Full Changelog](https://github.com/tenable/terrascan/compare/v1.17.0...v1.17.1)
+[Full Changelog](https://github.com/khulnasoft/terrascan/compare/v1.17.0...v1.17.1)
 
 **Merged pull requests:**
 
-- \[fix\] Resolve Vulnerable packages [\#1486](https://github.com/tenable/terrascan/pull/1486) ([rahulchheda](https://github.com/rahulchheda))
-- added tar.gz archive for windows [\#1474](https://github.com/tenable/terrascan/pull/1474) ([nasir-rabbani](https://github.com/nasir-rabbani))
-- Update opa and cobra version [\#1472](https://github.com/tenable/terrascan/pull/1472) ([nasir-rabbani](https://github.com/nasir-rabbani))
-- ignored matching provider version in tests [\#1470](https://github.com/tenable/terrascan/pull/1470) ([nasir-rabbani](https://github.com/nasir-rabbani))
-- added terraform and provider version in resource config [\#1469](https://github.com/tenable/terrascan/pull/1469) ([nasir-rabbani](https://github.com/nasir-rabbani))
-- Bump github.com/hashicorp/go-getter from 1.5.11 to 1.6.2 [\#1298](https://github.com/tenable/terrascan/pull/1298) ([dependabot[bot]](https://github.com/apps/dependabot))
+- \[fix\] Resolve Vulnerable packages [\#1486](https://github.com/khulnasoft/terrascan/pull/1486) ([rahulchheda](https://github.com/rahulchheda))
+- added tar.gz archive for windows [\#1474](https://github.com/khulnasoft/terrascan/pull/1474) ([nasir-rabbani](https://github.com/nasir-rabbani))
+- Update opa and cobra version [\#1472](https://github.com/khulnasoft/terrascan/pull/1472) ([nasir-rabbani](https://github.com/nasir-rabbani))
+- ignored matching provider version in tests [\#1470](https://github.com/khulnasoft/terrascan/pull/1470) ([nasir-rabbani](https://github.com/nasir-rabbani))
+- added terraform and provider version in resource config [\#1469](https://github.com/khulnasoft/terrascan/pull/1469) ([nasir-rabbani](https://github.com/nasir-rabbani))
+- Bump github.com/hashicorp/go-getter from 1.5.11 to 1.6.2 [\#1298](https://github.com/khulnasoft/terrascan/pull/1298) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 # Changelog
 
-## [v1.17.0](https://github.com/tenable/terrascan/tree/v1.17.0) (2022-11-17)
+## [v1.17.0](https://github.com/khulnasoft/terrascan/tree/v1.17.0) (2022-11-17)
 
-[Full Changelog](https://github.com/tenable/terrascan/compare/v1.16.0...v1.17.0)
+[Full Changelog](https://github.com/khulnasoft/terrascan/compare/v1.16.0...v1.17.0)
 
 **Implemented enhancements:**
 
-- refs resolution [\#1445](https://github.com/tenable/terrascan/pull/1445) ([gaurav-gogia](https://github.com/gaurav-gogia))
-- bump goformation from v6 to v7 [\#1440](https://github.com/tenable/terrascan/pull/1440) ([gaurav-gogia](https://github.com/gaurav-gogia))
-- update cft map for elb and s3 bucket [\#1434](https://github.com/tenable/terrascan/pull/1434) ([gaurav-gogia](https://github.com/gaurav-gogia))
-- Include DirScanErrors info in SARIF file [\#1398](https://github.com/tenable/terrascan/pull/1398) ([shaopeng-gh](https://github.com/shaopeng-gh))
+- refs resolution [\#1445](https://github.com/khulnasoft/terrascan/pull/1445) ([gaurav-gogia](https://github.com/gaurav-gogia))
+- bump goformation from v6 to v7 [\#1440](https://github.com/khulnasoft/terrascan/pull/1440) ([gaurav-gogia](https://github.com/gaurav-gogia))
+- update cft map for elb and s3 bucket [\#1434](https://github.com/khulnasoft/terrascan/pull/1434) ([gaurav-gogia](https://github.com/gaurav-gogia))
+- Include DirScanErrors info in SARIF file [\#1398](https://github.com/khulnasoft/terrascan/pull/1398) ([shaopeng-gh](https://github.com/shaopeng-gh))
 
 **Merged pull requests:**
 
-- fix remote source url [\#1437](https://github.com/tenable/terrascan/pull/1437) ([Rchanger](https://github.com/Rchanger))
-- Update object.get first parameter [\#1433](https://github.com/tenable/terrascan/pull/1433) ([Matt2212](https://github.com/Matt2212))
-- Update/release command [\#1430](https://github.com/tenable/terrascan/pull/1430) ([gaurav-gogia](https://github.com/gaurav-gogia))
-- updated terrascan version in deployment scripts  [\#1429](https://github.com/tenable/terrascan/pull/1429) ([nasir-rabbani](https://github.com/nasir-rabbani))
+- fix remote source url [\#1437](https://github.com/khulnasoft/terrascan/pull/1437) ([Rchanger](https://github.com/Rchanger))
+- Update object.get first parameter [\#1433](https://github.com/khulnasoft/terrascan/pull/1433) ([Matt2212](https://github.com/Matt2212))
+- Update/release command [\#1430](https://github.com/khulnasoft/terrascan/pull/1430) ([gaurav-gogia](https://github.com/gaurav-gogia))
+- updated terrascan version in deployment scripts  [\#1429](https://github.com/khulnasoft/terrascan/pull/1429) ([nasir-rabbani](https://github.com/nasir-rabbani))
 
 # Changelog
 
-## [v1.16.0](https://github.com/tenable/terrascan/tree/v1.16.0) (2022-10-19)
+## [v1.16.0](https://github.com/khulnasoft/terrascan/tree/v1.16.0) (2022-10-19)
 
-[Full Changelog](https://github.com/tenable/terrascan/compare/v1.15.2...v1.16.0)
+[Full Changelog](https://github.com/khulnasoft/terrascan/compare/v1.15.2...v1.16.0)
 
 **Implemented enhancements:**
 
-- JSON Output has Logs for Standard Error [\#1378](https://github.com/tenable/terrascan/issues/1378)
-- Malformed output after a parsing error [\#1326](https://github.com/tenable/terrascan/issues/1326)
-- update rds instance cft map [\#1422](https://github.com/tenable/terrascan/pull/1422) ([gaurav-gogia](https://github.com/gaurav-gogia))
-- update libraries [\#1385](https://github.com/tenable/terrascan/pull/1385) ([gaurav-gogia](https://github.com/gaurav-gogia))
+- JSON Output has Logs for Standard Error [\#1378](https://github.com/khulnasoft/terrascan/issues/1378)
+- Malformed output after a parsing error [\#1326](https://github.com/khulnasoft/terrascan/issues/1326)
+- update rds instance cft map [\#1422](https://github.com/khulnasoft/terrascan/pull/1422) ([gaurav-gogia](https://github.com/gaurav-gogia))
+- update libraries [\#1385](https://github.com/khulnasoft/terrascan/pull/1385) ([gaurav-gogia](https://github.com/gaurav-gogia))
 
 **Closed issues:**
 
-- installation error [\#1403](https://github.com/tenable/terrascan/issues/1403)
-- Calling attention to your documentation... [\#1384](https://github.com/tenable/terrascan/issues/1384)
-- Docs don't mention pre-requirements [\#1345](https://github.com/tenable/terrascan/issues/1345)
-- resource ID has an invalid format Dockerfile [\#1344](https://github.com/tenable/terrascan/issues/1344)
-- Error message scanning IaC Types [\#1259](https://github.com/tenable/terrascan/issues/1259)
-- False positive with AWS provider \>=4.x style bucket resources [\#1219](https://github.com/tenable/terrascan/issues/1219)
+- installation error [\#1403](https://github.com/khulnasoft/terrascan/issues/1403)
+- Calling attention to your documentation... [\#1384](https://github.com/khulnasoft/terrascan/issues/1384)
+- Docs don't mention pre-requirements [\#1345](https://github.com/khulnasoft/terrascan/issues/1345)
+- resource ID has an invalid format Dockerfile [\#1344](https://github.com/khulnasoft/terrascan/issues/1344)
+- Error message scanning IaC Types [\#1259](https://github.com/khulnasoft/terrascan/issues/1259)
+- False positive with AWS provider \>=4.x style bucket resources [\#1219](https://github.com/khulnasoft/terrascan/issues/1219)
 
 **Merged pull requests:**
 
-- Update RDS Policies [\#1424](https://github.com/tenable/terrascan/pull/1424) ([gaurav-gogia](https://github.com/gaurav-gogia))
-- Add Terrascan Sandbox link to README [\#1409](https://github.com/tenable/terrascan/pull/1409) ([khasty720](https://github.com/khasty720))
-- allow host policy update [\#1400](https://github.com/tenable/terrascan/pull/1400) ([DEVANSHUSHARMA1](https://github.com/DEVANSHUSHARMA1))
-- Policy IDs update [\#1396](https://github.com/tenable/terrascan/pull/1396) ([gaurav-gogia](https://github.com/gaurav-gogia))
-- vuln tests [\#1394](https://github.com/tenable/terrascan/pull/1394) ([gaurav-gogia](https://github.com/gaurav-gogia))
-- Mention pre-requirements in the README [\#1375](https://github.com/tenable/terrascan/pull/1375) ([VeraBE](https://github.com/VeraBE))
-- fixed typo of the function name [\#1373](https://github.com/tenable/terrascan/pull/1373) ([Antsaniaina](https://github.com/Antsaniaina))
-- Add github-actions to dependabot [\#1365](https://github.com/tenable/terrascan/pull/1365) ([gliptak](https://github.com/gliptak))
-- adding PITR attribute mapping config for dyanmodb [\#1340](https://github.com/tenable/terrascan/pull/1340) ([harkirat22](https://github.com/harkirat22))
-- container funcs to return dev friendly warnings [\#1319](https://github.com/tenable/terrascan/pull/1319) ([gaurav-gogia](https://github.com/gaurav-gogia))
-- \[Snyk\] Security upgrade alpine from 3.15.4 to 3.16 [\#1315](https://github.com/tenable/terrascan/pull/1315) ([bkizer-tenable](https://github.com/bkizer-tenable))
-- Add iac providers endpoint [\#1307](https://github.com/tenable/terrascan/pull/1307) ([khasty720](https://github.com/khasty720))
-- updated policy for kubernetes [\#1288](https://github.com/tenable/terrascan/pull/1288) ([harkirat22](https://github.com/harkirat22))
-- Update README.md [\#1265](https://github.com/tenable/terrascan/pull/1265) ([sangam14](https://github.com/sangam14))
+- Update RDS Policies [\#1424](https://github.com/khulnasoft/terrascan/pull/1424) ([gaurav-gogia](https://github.com/gaurav-gogia))
+- Add Terrascan Sandbox link to README [\#1409](https://github.com/khulnasoft/terrascan/pull/1409) ([khasty720](https://github.com/khasty720))
+- allow host policy update [\#1400](https://github.com/khulnasoft/terrascan/pull/1400) ([DEVANSHUSHARMA1](https://github.com/DEVANSHUSHARMA1))
+- Policy IDs update [\#1396](https://github.com/khulnasoft/terrascan/pull/1396) ([gaurav-gogia](https://github.com/gaurav-gogia))
+- vuln tests [\#1394](https://github.com/khulnasoft/terrascan/pull/1394) ([gaurav-gogia](https://github.com/gaurav-gogia))
+- Mention pre-requirements in the README [\#1375](https://github.com/khulnasoft/terrascan/pull/1375) ([VeraBE](https://github.com/VeraBE))
+- fixed typo of the function name [\#1373](https://github.com/khulnasoft/terrascan/pull/1373) ([Antsaniaina](https://github.com/Antsaniaina))
+- Add github-actions to dependabot [\#1365](https://github.com/khulnasoft/terrascan/pull/1365) ([gliptak](https://github.com/gliptak))
+- adding PITR attribute mapping config for dyanmodb [\#1340](https://github.com/khulnasoft/terrascan/pull/1340) ([harkirat22](https://github.com/harkirat22))
+- container funcs to return dev friendly warnings [\#1319](https://github.com/khulnasoft/terrascan/pull/1319) ([gaurav-gogia](https://github.com/gaurav-gogia))
+- \[Snyk\] Security upgrade alpine from 3.15.4 to 3.16 [\#1315](https://github.com/khulnasoft/terrascan/pull/1315) ([bkizer-tenable](https://github.com/bkizer-tenable))
+- Add iac providers endpoint [\#1307](https://github.com/khulnasoft/terrascan/pull/1307) ([khasty720](https://github.com/khasty720))
+- updated policy for kubernetes [\#1288](https://github.com/khulnasoft/terrascan/pull/1288) ([harkirat22](https://github.com/harkirat22))
+- Update README.md [\#1265](https://github.com/khulnasoft/terrascan/pull/1265) ([sangam14](https://github.com/sangam14))
 
 # Changelog
 
-## [v1.15.2](https://github.com/tenable/terrascan/tree/v1.15.2) (2022-06-13)
+## [v1.15.2](https://github.com/khulnasoft/terrascan/tree/v1.15.2) (2022-06-13)
 
-[Full Changelog](https://github.com/tenable/terrascan/compare/v1.15.1...v1.15.2)
+[Full Changelog](https://github.com/khulnasoft/terrascan/compare/v1.15.1...v1.15.2)
 
 **Closed issues:**
 
-- Export Windows files in release using zip extension [\#1280](https://github.com/tenable/terrascan/issues/1280)
+- Export Windows files in release using zip extension [\#1280](https://github.com/khulnasoft/terrascan/issues/1280)
 
 **Merged pull requests:**
 
-- Adding CFT support for new resources [\#1293](https://github.com/tenable/terrascan/pull/1293) ([shreyas-phansalkar-189](https://github.com/shreyas-phansalkar-189))
-- fixes: panic in case of zap logger init on windows os [\#1283](https://github.com/tenable/terrascan/pull/1283) ([Rchanger](https://github.com/Rchanger))
+- Adding CFT support for new resources [\#1293](https://github.com/khulnasoft/terrascan/pull/1293) ([shreyas-phansalkar-189](https://github.com/shreyas-phansalkar-189))
+- fixes: panic in case of zap logger init on windows os [\#1283](https://github.com/khulnasoft/terrascan/pull/1283) ([Rchanger](https://github.com/Rchanger))
 
 # Changelog
 
-## [v1.15.2](https://github.com/tenable/terrascan/tree/v1.15.2) (2022-06-13)
+## [v1.15.2](https://github.com/khulnasoft/terrascan/tree/v1.15.2) (2022-06-13)
 
-[Full Changelog](https://github.com/tenable/terrascan/compare/v1.15.1...v1.15.2)
+[Full Changelog](https://github.com/khulnasoft/terrascan/compare/v1.15.1...v1.15.2)
 
 **Closed issues:**
 
-- Export Windows files in release using zip extension [\#1280](https://github.com/tenable/terrascan/issues/1280)
+- Export Windows files in release using zip extension [\#1280](https://github.com/khulnasoft/terrascan/issues/1280)
 
 **Merged pull requests:**
 
-- fixes: panic in case of zap logger init on windows os [\#1283](https://github.com/tenable/terrascan/pull/1283) ([Rchanger](https://github.com/Rchanger))
+- fixes: panic in case of zap logger init on windows os [\#1283](https://github.com/khulnasoft/terrascan/pull/1283) ([Rchanger](https://github.com/Rchanger))
 
 # Changelog
 
-## [v1.15.1](https://github.com/tenable/terrascan/tree/v1.15.1) (2022-05-20)
+## [v1.15.1](https://github.com/khulnasoft/terrascan/tree/v1.15.1) (2022-05-20)
 
-[Full Changelog](https://github.com/tenable/terrascan/compare/v1.15.0...v1.15.1)
+[Full Changelog](https://github.com/khulnasoft/terrascan/compare/v1.15.0...v1.15.1)
 
 **Merged pull requests:**
 
-- Support reading .terraformrc file from env var [\#1264](https://github.com/tenable/terrascan/pull/1264) ([Rchanger](https://github.com/Rchanger))
-- CFT lambda conversion nil pointer check to avoid panic [\#1260](https://github.com/tenable/terrascan/pull/1260) ([Rchanger](https://github.com/Rchanger))
-- Fix descriptions to install terrascan [\#1254](https://github.com/tenable/terrascan/pull/1254) ([yu-iskw](https://github.com/yu-iskw))
-- Rebranding repository to Tenable brand [\#1253](https://github.com/tenable/terrascan/pull/1253) ([cesar-rodriguez](https://github.com/cesar-rodriguez))
-- Rebranding to Tenable [\#1246](https://github.com/tenable/terrascan/pull/1246) ([cesar-rodriguez](https://github.com/cesar-rodriguez))
-- Update README.md [\#1245](https://github.com/tenable/terrascan/pull/1245) ([sangam14](https://github.com/sangam14))
-- fix: remove master ref check from release docker push job [\#1244](https://github.com/tenable/terrascan/pull/1244) ([Rchanger](https://github.com/Rchanger))
+- Support reading .terraformrc file from env var [\#1264](https://github.com/khulnasoft/terrascan/pull/1264) ([Rchanger](https://github.com/Rchanger))
+- CFT lambda conversion nil pointer check to avoid panic [\#1260](https://github.com/khulnasoft/terrascan/pull/1260) ([Rchanger](https://github.com/Rchanger))
+- Fix descriptions to install terrascan [\#1254](https://github.com/khulnasoft/terrascan/pull/1254) ([yu-iskw](https://github.com/yu-iskw))
+- Rebranding repository to Tenable brand [\#1253](https://github.com/khulnasoft/terrascan/pull/1253) ([cesar-rodriguez](https://github.com/cesar-rodriguez))
+- Rebranding to Tenable [\#1246](https://github.com/khulnasoft/terrascan/pull/1246) ([cesar-rodriguez](https://github.com/cesar-rodriguez))
+- Update README.md [\#1245](https://github.com/khulnasoft/terrascan/pull/1245) ([sangam14](https://github.com/sangam14))
+- fix: remove master ref check from release docker push job [\#1244](https://github.com/khulnasoft/terrascan/pull/1244) ([Rchanger](https://github.com/Rchanger))
 
 # Changelog
 

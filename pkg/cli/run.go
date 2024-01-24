@@ -24,10 +24,10 @@ import (
 	"strings"
 
 	"github.com/mattn/go-isatty"
-	"github.com/tenable/terrascan/pkg/downloader"
-	"github.com/tenable/terrascan/pkg/runtime"
-	"github.com/tenable/terrascan/pkg/utils"
-	"github.com/tenable/terrascan/pkg/writer"
+	"github.com/khulnasoft/terrascan/pkg/downloader"
+	"github.com/khulnasoft/terrascan/pkg/runtime"
+	"github.com/khulnasoft/terrascan/pkg/utils"
+	"github.com/khulnasoft/terrascan/pkg/writer"
 	"go.uber.org/zap"
 )
 

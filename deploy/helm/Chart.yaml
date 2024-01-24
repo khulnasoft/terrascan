@@ -3,8 +3,8 @@ name: terrascan
 version: 1.0.0
 appVersion: v1.6.0
 description: A Helm chart for running terrascan in server mode
-icon: https://raw.githubusercontent.com/tenable/terrascan/master/docs/img/terrascan-icon-white.png
-home: https://github.com/tenable/terrascan
+icon: https://raw.githubusercontent.com/khulnasoft/terrascan/master/docs/img/terrascan-icon-white.png
+home: https://github.com/khulnasoft/terrascan
 keywords:
   - terrascan
   - opa
@@ -14,7 +14,7 @@ keywords:
   - admission-controller
   - admission
 sources:
-  - https://github.com/tenable/terrascan
+  - https://github.com/khulnasoft/terrascan
 maintainers:
   - name: terrascan
     email: terrascan@tenable.com

@@ -13,14 +13,14 @@ spec:
             - clone
             - --single-branch
             - --branch=master
-            - https://github.com/tenable/terrascan.git
+            - https://github.com/khulnasoft/terrascan.git
             - /data
           volumeMounts:
             - mountPath: /data
               name: terrascan-data-sync
       containers:
       - name: terrascan-server
-        image: tenable/terrascan:1.16.0
+        image: khulnasoft/terrascan:1.16.0
         imagePullPolicy: IfNotPresent
         resources:
           limits:

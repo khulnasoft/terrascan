@@ -20,12 +20,12 @@ import (
 	"errors"
 
 	"github.com/google/uuid"
-	"github.com/tenable/terrascan/pkg/iac-providers/output"
-	"github.com/tenable/terrascan/pkg/mapper/core"
-	"github.com/tenable/terrascan/pkg/mapper/iac-providers/arm/config"
-	fn "github.com/tenable/terrascan/pkg/mapper/iac-providers/arm/functions"
-	"github.com/tenable/terrascan/pkg/mapper/iac-providers/arm/types"
-	"github.com/tenable/terrascan/pkg/utils"
+	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
+	"github.com/khulnasoft/terrascan/pkg/mapper/core"
+	"github.com/khulnasoft/terrascan/pkg/mapper/iac-providers/arm/config"
+	fn "github.com/khulnasoft/terrascan/pkg/mapper/iac-providers/arm/functions"
+	"github.com/khulnasoft/terrascan/pkg/mapper/iac-providers/arm/types"
+	"github.com/khulnasoft/terrascan/pkg/utils"
 )
 
 type armMapper struct{}

@@ -28,10 +28,10 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/gexec"
-	"github.com/tenable/terrascan/pkg/iac-providers/output"
-	"github.com/tenable/terrascan/pkg/policy"
-	serverUtils "github.com/tenable/terrascan/test/e2e/server"
-	"github.com/tenable/terrascan/test/helper"
+	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
+	"github.com/khulnasoft/terrascan/pkg/policy"
+	serverUtils "github.com/khulnasoft/terrascan/test/e2e/server"
+	"github.com/khulnasoft/terrascan/test/helper"
 )
 
 var _ = Describe("Server File Scan", func() {

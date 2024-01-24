@@ -20,19 +20,19 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/tenable/terrascan/pkg/notifications/webhook"
-	"github.com/tenable/terrascan/pkg/policy/opa"
-	"github.com/tenable/terrascan/pkg/vulnerability"
+	"github.com/khulnasoft/terrascan/pkg/notifications/webhook"
+	"github.com/khulnasoft/terrascan/pkg/policy/opa"
+	"github.com/khulnasoft/terrascan/pkg/vulnerability"
 
 	"go.uber.org/zap"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/tenable/terrascan/pkg/filters"
-	iacProvider "github.com/tenable/terrascan/pkg/iac-providers"
-	"github.com/tenable/terrascan/pkg/iac-providers/output"
-	"github.com/tenable/terrascan/pkg/notifications"
-	"github.com/tenable/terrascan/pkg/policy"
-	res "github.com/tenable/terrascan/pkg/results"
+	"github.com/khulnasoft/terrascan/pkg/filters"
+	iacProvider "github.com/khulnasoft/terrascan/pkg/iac-providers"
+	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
+	"github.com/khulnasoft/terrascan/pkg/notifications"
+	"github.com/khulnasoft/terrascan/pkg/policy"
+	res "github.com/khulnasoft/terrascan/pkg/results"
 )
 
 const (

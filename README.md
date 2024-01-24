@@ -1,15 +1,15 @@
 ![Terrascan](https://raw.githubusercontent.com/tenable/runterrascan.io/main/static/images/TerrascanTM_BY_Logo.png)
 
-[![GitHub release](https://img.shields.io/github/release/tenable/terrascan)](https://github.com/tenable/terrascan/releases/latest)
-[![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202-blue)](https://github.com/tenable/terrascan/blob/master/LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/tenable/terrascan/pulls)
-![CI](https://github.com/tenable/terrascan/workflows/build/badge.svg)
+[![GitHub release](https://img.shields.io/github/release/khulnasoft/terrascan)](https://github.com/khulnasoft/terrascan/releases/latest)
+[![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202-blue)](https://github.com/khulnasoft/terrascan/blob/master/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/khulnasoft/terrascan/pulls)
+![CI](https://github.com/khulnasoft/terrascan/workflows/build/badge.svg)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=tenable_terrascan&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=tenable_terrascan)
 [![AUR package](https://repology.org/badge/version-for-repo/aur/terrascan.svg)](https://repology.org/project/terrascan/versions)
-[![codecov](https://codecov.io/gh/tenable/terrascan/branch/master/graph/badge.svg)](https://codecov.io/gh/tenable/terrascan)
+[![codecov](https://codecov.io/gh/khulnasoft/terrascan/branch/master/graph/badge.svg)](https://codecov.io/gh/khulnasoft/terrascan)
 [![Documentation Status](https://readthedocs.com/projects/tenable-terrascan/badge/?version=latest)](https://runterrascan.io/)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
-![GitHub all releases](https://img.shields.io/github/downloads/tenable/terrascan/total)
+![GitHub all releases](https://img.shields.io/github/downloads/khulnasoft/terrascan/total)
 
 ## Introduction
 
@@ -55,12 +55,12 @@ Terrascan is a static code analyzer for Infrastructure as Code. Terrascan allows
 
 ### Step 1: Install
 Terrascan supports multiple ways to install and is also available as a Docker image.
-See Terrascan's [releases](https://github.com/tenable/terrascan/releases) page for the latest version of builds in all supported platforms. Select the correct binary for your platform.
+See Terrascan's [releases](https://github.com/khulnasoft/terrascan/releases) page for the latest version of builds in all supported platforms. Select the correct binary for your platform.
 
 #### Install as a native executable
 
 ```sh
-$ curl -L "$(curl -s https://api.github.com/repos/tenable/terrascan/releases/latest | grep -o -E "https://.+?_Darwin_x86_64.tar.gz")" > terrascan.tar.gz
+$ curl -L "$(curl -s https://api.github.com/repos/khulnasoft/terrascan/releases/latest | grep -o -E "https://.+?_Darwin_x86_64.tar.gz")" > terrascan.tar.gz
 $ tar -xf terrascan.tar.gz terrascan && rm terrascan.tar.gz
 $ install terrascan /usr/local/bin && rm terrascan
 $ terrascan
@@ -87,7 +87,7 @@ $ brew install terrascan
 Terrascan is also available as a Docker image and can be used as follows
 
 ```sh
-$ docker run tenable/terrascan
+$ docker run khulnasoft/terrascan
 ```
 Refer to [documentation](https://runterrascan.io/docs/getting-started/) for information.
 
@@ -198,7 +198,7 @@ Terrascan's default output is a list of violations present in the scanned IaC. A
 Terrascan can be built locally. This is helpful if you want to be on the latest version or when developing Terrascan. [gcc](https://gcc.gnu.org/install/) and [Go](https://go.dev/doc/install) 1.19 or above are required.
 
 ```sh
-$ git clone git@github.com:tenable/terrascan.git
+$ git clone git@github.com:khulnasoft/terrascan.git
 $ cd terrascan
 $ make build
 $ ./bin/terrascan
@@ -210,7 +210,7 @@ FROM golang:alpine AS build-env
 
 RUN apk add --update git
 
-RUN git clone https://github.com/tenable/terrascan && cd terrascan \
+RUN git clone https://github.com/khulnasoft/terrascan && cd terrascan \
   && CGO_ENABLED=0 GO111MODULE=on go build -o /go/bin/terrascan cmd/terrascan/main.go
 
 ```
@@ -227,9 +227,9 @@ Terrascan is licensed under the [Apache 2.0 License](LICENSE).
 
 ### Stargazers
 
-[![Stargazers @tenable/terrascan](https://reporoster.com/stars/tenable/terrascan)](https://github.com/tenable/terrascan/stargazers)
+[![Stargazers @khulnasoft/terrascan](https://reporoster.com/stars/khulnasoft/terrascan)](https://github.com/khulnasoft/terrascan/stargazers)
 
 ### Forkers
 
-[![Forkers @tenable/terrascan](https://reporoster.com/forks/tenable/terrascan)](https://github.com/tenable/terrascan/network/members)
+[![Forkers @khulnasoft/terrascan](https://reporoster.com/forks/khulnasoft/terrascan)](https://github.com/khulnasoft/terrascan/network/members)
 
