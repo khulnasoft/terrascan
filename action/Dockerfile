@@ -1,5 +1,5 @@
 # Dependency Image
-FROM khulnasoft/terrascan:1.17.0 as terrascan
+FROM khulnasoft/terrascan:latest as terrascan
 
 # Base Image
 FROM alpine:3.16
