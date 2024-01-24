@@ -50,12 +50,12 @@ jobs:
           MULTIPLATFORM: true
 
       - name: Pull latest Image
-        run:  docker pull khulnasoft/tenb-cb:latest
+        run:  docker pull tenable/tenb-cb:latest
 
       - name: Run scan on terrascan image
         run: |
           image_tag=$(<dockerhub-image-label.txt)
-          docker run -e JKN_USERNAME=${{ secrets.JKN_USERNAME }} -e JKN_PASSWORD=${{ secrets.JKN_PASSWORD }} -t khulnasoft/tenb-cb:latest jobs execute-job  --credential-mode env -n teams-deleng-terraform -p deleng-terraform/dockerhub-publish -d "{\"APPID\":\"2054\", \"IMAGE\":\"khulnasoft/terrascan:${image_tag}\", \"TARGETS\": \"khulnasoft/terrascan:${image_tag},khulnasoft/terrascan:latest\", \"MULTIARCH\":\"true\"}" --cloudflare-access-secret ${{ secrets.CF_ACCESS_TOKEN }}:${{ secrets.CF_SECRET }}
+          docker run -e DOCKER_USERNAME=${{ secrets.DOCKER_USERNAME }} -e DOCKER_TOKEN=${{ secrets.DOCKER_TOKEN }} -t khulnasoft/tenb-cb:latest jobs execute-job  --credential-mode env -n teams-deleng-terraform -p deleng-terraform/dockerhub-publish -d "{\"APPID\":\"2054\", \"IMAGE\":\"khulnasoft/terrascan:${image_tag}\", \"TARGETS\": \"khulnasoft/terrascan:${image_tag},khulnasoft/terrascan:latest\", \"MULTIARCH\":\"true\"}" --cloudflare-access-secret ${{ secrets.CF_ACCESS_TOKEN }}:${{ secrets.CF_SECRET }}
 
       - name: Build terrascan_atlantis docker image
         run: make atlantis-docker-build
@@ -63,4 +63,4 @@ jobs:
       - name: Run scan on terrascan_atlantis image 
         run: |
           image_tag=$(<dockerhub-image-label.txt)
-          docker run -e JKN_USERNAME=${{ secrets.JKN_USERNAME }} -e JKN_PASSWORD=${{ secrets.JKN_PASSWORD }} -t khulnasoft/tenb-cb:latest jobs execute-job  --credential-mode env -n teams-deleng-terraform -p deleng-terraform/dockerhub-publish -d "{\"APPID\":\"test\", \"IMAGE\":\"khulnasoft/terrascan_atlantis:${image_tag}\", \"TARGETS\": \"khulnasoft/terrascan_atlantis:${image_tag}\", \"MULTIARCH\":\"true\"}" --cloudflare-access-secret ${{ secrets.CF_ACCESS_TOKEN }}:${{ secrets.CF_SECRET }}
+          docker run -e DOCKER_USERNAME=${{ secrets.DOCKER_USERNAME }} -e DOCKER_TOKEN=${{ secrets.DOCKER_TOKEN }} -t khulnasoft/tenb-cb:latest jobs execute-job  --credential-mode env -n teams-deleng-terraform -p deleng-terraform/dockerhub-publish -d "{\"APPID\":\"test\", \"IMAGE\":\"khulnasoft/terrascan_atlantis:${image_tag}\", \"TARGETS\": \"khulnasoft/terrascan_atlantis:${image_tag}\", \"MULTIARCH\":\"true\"}" --cloudflare-access-secret ${{ secrets.CF_ACCESS_TOKEN }}:${{ secrets.CF_SECRET }}
