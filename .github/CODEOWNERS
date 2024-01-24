@@ -2,7 +2,7 @@
 # This file designates required PR reviewers for this repository
 # https://help.github.com/articles/about-codeowners/
 
-*       @khulnasoft/terrascan-maintainers @bkizer-tenable
+*       @khulnasoft/terrascan-maintainers @bkizer-khulnasoft
 
 *.rego  @khulnasoft/terrascan-policy-maintainers
 
@@ -11,4 +11,4 @@
 /pkg/   @khulnasoft/terrascan-maintainers
 
 /pkg/policies/opa/rego/ @khulnasoft/terrascan-policy-maintainers
-/sonar-project.properties @tenable/infosec
+/sonar-project.properties @khulnasoft/infosec
