@@ -23,11 +23,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/mattn/go-isatty"
 	"github.com/khulnasoft/terrascan/pkg/downloader"
 	"github.com/khulnasoft/terrascan/pkg/runtime"
 	"github.com/khulnasoft/terrascan/pkg/utils"
 	"github.com/khulnasoft/terrascan/pkg/writer"
+	"github.com/mattn/go-isatty"
 	"go.uber.org/zap"
 )
 

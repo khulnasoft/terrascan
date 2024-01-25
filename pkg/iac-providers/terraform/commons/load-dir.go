@@ -30,11 +30,11 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	hclConfigs "github.com/hashicorp/terraform/configs"
 	"github.com/hashicorp/terraform/registry/regsrc"
-	"github.com/spf13/afero"
 	"github.com/khulnasoft/terrascan/pkg/downloader"
 	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
 	"github.com/khulnasoft/terrascan/pkg/results"
 	"github.com/khulnasoft/terrascan/pkg/utils"
+	"github.com/spf13/afero"
 	"go.uber.org/zap"
 )
 

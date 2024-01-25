@@ -23,10 +23,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/spf13/cobra"
 	"github.com/khulnasoft/terrascan/pkg/config"
 	"github.com/khulnasoft/terrascan/pkg/logging"
 	"github.com/khulnasoft/terrascan/pkg/utils"
+	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 )
 

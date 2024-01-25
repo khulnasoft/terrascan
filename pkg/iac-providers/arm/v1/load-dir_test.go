@@ -30,9 +30,9 @@ import (
 	"gopkg.in/src-d/go-git.v4/plumbing"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/stretchr/testify/assert"
 	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
 	"github.com/khulnasoft/terrascan/pkg/utils"
+	"github.com/stretchr/testify/assert"
 )
 
 const (

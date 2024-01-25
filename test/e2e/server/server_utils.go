@@ -25,10 +25,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/onsi/gomega"
-	"github.com/onsi/gomega/gexec"
 	"github.com/khulnasoft/terrascan/pkg/policy"
 	"github.com/khulnasoft/terrascan/test/helper"
+	"github.com/onsi/gomega"
+	"github.com/onsi/gomega/gexec"
 )
 
 const (

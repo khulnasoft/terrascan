@@ -31,12 +31,12 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/onsi/ginkgo"
-	"github.com/onsi/gomega"
-	"github.com/onsi/gomega/gexec"
 	"github.com/khulnasoft/terrascan/pkg/policy"
 	"github.com/khulnasoft/terrascan/pkg/results"
 	"github.com/khulnasoft/terrascan/pkg/utils"
+	"github.com/onsi/ginkgo"
+	"github.com/onsi/gomega"
+	"github.com/onsi/gomega/gexec"
 	"gopkg.in/yaml.v3"
 )
 

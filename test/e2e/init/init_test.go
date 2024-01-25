@@ -23,13 +23,13 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/khulnasoft/terrascan/pkg/utils"
+	initUtil "github.com/khulnasoft/terrascan/test/e2e/init"
+	"github.com/khulnasoft/terrascan/test/helper"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/gexec"
-	"github.com/khulnasoft/terrascan/pkg/utils"
-	initUtil "github.com/khulnasoft/terrascan/test/e2e/init"
-	"github.com/khulnasoft/terrascan/test/helper"
 	"gopkg.in/src-d/go-git.v4"
 )
 

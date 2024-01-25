@@ -25,14 +25,14 @@ import (
 	"os"
 	"path/filepath"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
-	"github.com/onsi/gomega/gbytes"
-	"github.com/onsi/gomega/gexec"
 	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
 	"github.com/khulnasoft/terrascan/pkg/policy"
 	serverUtils "github.com/khulnasoft/terrascan/test/e2e/server"
 	"github.com/khulnasoft/terrascan/test/helper"
+	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/gomega"
+	"github.com/onsi/gomega/gbytes"
+	"github.com/onsi/gomega/gexec"
 )
 
 var _ = Describe("Server Remote Scan", func() {

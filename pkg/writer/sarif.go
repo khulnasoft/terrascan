@@ -22,10 +22,10 @@ import (
 	"strings"
 
 	"github.com/go-errors/errors"
-	"github.com/owenrumney/go-sarif/v2/sarif"
 	"github.com/khulnasoft/terrascan/pkg/policy"
 	"github.com/khulnasoft/terrascan/pkg/utils"
 	"github.com/khulnasoft/terrascan/pkg/version"
+	"github.com/owenrumney/go-sarif/v2/sarif"
 	"go.uber.org/zap"
 )
 

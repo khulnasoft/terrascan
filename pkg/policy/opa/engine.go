@@ -29,12 +29,12 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/rego"
 	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
 	"github.com/khulnasoft/terrascan/pkg/policy"
 	"github.com/khulnasoft/terrascan/pkg/results"
 	"github.com/khulnasoft/terrascan/pkg/utils"
+	"github.com/open-policy-agent/opa/ast"
+	"github.com/open-policy-agent/opa/rego"
 	"go.uber.org/zap"
 )
 

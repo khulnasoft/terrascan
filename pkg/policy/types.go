@@ -3,9 +3,9 @@ package policy
 import (
 	"encoding/xml"
 
-	"github.com/open-policy-agent/opa/rego"
 	"github.com/khulnasoft/terrascan/pkg/iac-providers/output"
 	"github.com/khulnasoft/terrascan/pkg/results"
+	"github.com/open-policy-agent/opa/rego"
 )
 
 const (

@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/spf13/cobra"
 	iacProvider "github.com/khulnasoft/terrascan/pkg/iac-providers"
 	"github.com/khulnasoft/terrascan/pkg/policy"
+	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 )
 

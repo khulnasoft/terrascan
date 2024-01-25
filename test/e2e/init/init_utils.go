@@ -19,9 +19,9 @@ package init
 import (
 	"io"
 
+	"github.com/khulnasoft/terrascan/test/helper"
 	"github.com/onsi/gomega"
 	"github.com/onsi/gomega/gexec"
-	"github.com/khulnasoft/terrascan/test/helper"
 	"gopkg.in/src-d/go-git.v4"
 )
 

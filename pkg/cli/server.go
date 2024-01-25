@@ -17,8 +17,8 @@
 package cli
 
 import (
-	"github.com/spf13/cobra"
 	httpserver "github.com/khulnasoft/terrascan/pkg/http-server"
+	"github.com/spf13/cobra"
 )
 
 var (
