@@ -20,10 +20,10 @@ require (
 	github.com/GoogleCloudPlatform/docker-credential-gcr v2.0.5+incompatible
 	github.com/VerbalExpressions/GoVerbalExpressions v0.0.0-20200410162751-4d76a1099a6e
 	github.com/aws/aws-sdk-go v1.44.193
-	github.com/aws/aws-sdk-go-v2/config v1.5.0
-	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.3.2
-	github.com/aws/aws-sdk-go-v2/service/s3 v1.11.1
-	github.com/aws/smithy-go v1.6.0
+	github.com/aws/aws-sdk-go-v2/config v1.27.0
+	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.16.0
+	github.com/aws/aws-sdk-go-v2/service/s3 v1.49.0
+	github.com/aws/smithy-go v1.20.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-errors/errors v1.0.1
 	github.com/google/go-containerregistry v0.5.1
@@ -98,15 +98,21 @@ require (
 	github.com/agext/levenshtein v1.2.2 // indirect
 	github.com/agnivade/levenshtein v1.1.1 // indirect
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
-	github.com/aws/aws-sdk-go-v2 v1.7.1 // indirect
-	github.com/aws/aws-sdk-go-v2/credentials v1.3.1 // indirect
-	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.3.0 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/ini v1.1.1 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.2.1 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.2.1 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.5.1 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sso v1.3.1 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sts v1.6.0 // indirect
+	github.com/aws/aws-sdk-go-v2 v1.25.0 // indirect
+	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.6.0 // indirect
+	github.com/aws/aws-sdk-go-v2/credentials v1.17.0 // indirect
+	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.15.0 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.0 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.6.0 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/ini v1.8.0 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/v4a v1.3.0 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.11.0 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.3.0 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.11.0 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.17.0 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sso v1.19.0 // indirect
+	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.22.0 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sts v1.27.0 // indirect
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d // indirect
 	github.com/containerd/typeurl v1.0.2 // indirect
 	github.com/cyphar/filepath-securejoin v0.2.4 // indirect
